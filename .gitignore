@@ -24,3 +24,8 @@ models/*
 # Misc
 .DS_Store
 *.log
+
+# Local data that is not in the repo
+data/*.tif
+data/GDB/NEWHANOVER.gdb/
+.pytest_cache/

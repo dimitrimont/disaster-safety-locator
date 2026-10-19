@@ -1,0 +1,53 @@
+{
+  "landfalls": 170,
+  "storms": 137,
+  "dates_with_marks": 19,
+  "first_version_split": {
+    "seed_42_r2": 0.79,
+    "seed_42_mae_nm": 30.02,
+    "median_r2": 0.347,
+    "r2_10th_90th": [
+      0.16,
+      0.54
+    ],
+    "splits_at_or_above_seed_42": 1,
+    "splits": 300
+  },
+  "storms_held_out": [
+    {
+      "model": "first forest, 13 inputs",
+      "mae_nm": 56.6,
+      "r2_median": 0.254,
+      "mean_guess_mae_nm": 67.5,
+      "splits": 100
+    },
+    {
+      "model": "revised forest, 6 storm measures",
+      "mae_nm": 54.2,
+      "r2_median": 0.294,
+      "mean_guess_mae_nm": 67.5,
+      "splits": 100
+    },
+    {
+      "model": "first forest, random rows (for comparison)",
+      "mae_nm": 51.5,
+      "r2_median": 0.34,
+      "mean_guess_mae_nm": 66.5,
+      "splits": 100
+    },
+    {
+      "model": "revised network, 6 storm measures",
+      "mae_nm": 61.3,
+      "r2_median": 0.062,
+      "mean_guess_mae_nm": 67.5,
+      "splits": 20
+    },
+    {
+      "model": "revised forest on the same splits",
+      "mae_nm": 54.6,
+      "r2_median": 0.271,
+      "mean_guess_mae_nm": 67.5,
+      "splits": 20
+    }
+  ]
+}
